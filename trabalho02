@@ -35,3 +35,13 @@ INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, 
 INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('20', 'Lara Rodrigues ', '086700622181', 'Rua das Flores ', '09', 'Aguas lindas', '72610202');
 INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('21', 'Nathan de Aguiar', '74589669845', 'Rua3', '03', 'SHVP', '72500488');
 INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('22', 'Debora', '889900221', 'Rua da Saudade', '08', 'Norte', '72238900');
+
+
+
+
+
+
+/*Consulte regristros selecionando colunas*/
+select * from tb_func
+	inner join tb_depto
+		on depto_cod = func_depto;
