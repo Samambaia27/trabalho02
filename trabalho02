@@ -9,3 +9,29 @@ where cli_cod = 1;
 
 
 select * from tb_cli
+
+
+
+
+UPDATE `bd_caso_estudo_vendas`.`tb_cli` SET `cli_cod` = '01', `cli_nome` = 'Hudson Neves ', `cli_cpf` = '999999999999', `cli_end_rua` = 'Rua das Neves ', `cli_end_num` = '1000p', `cli_end_bairro` = 'Centro', `cli_end_cep` = '08000000' WHERE (`cli_cod` = '1');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('02', 'Izabella Oliveira', '06555598871', 'Rua das Neves', '04', 'Sul', '01082798');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('03', 'Emanoele', '88888888888', 'Rua morro azul', '08', 'residencial oeste', '72540276');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('04', 'Yan felipy', '0552214535', 'Rua das Aguas', '03', 'Aguas escura ', '72000000');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('05', 'Samuel Sales Oliveira', '0112214110', 'Rua do sol', '04', 'Aguas mornas', '72000100');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('06', 'Emilly Gabrielly', '23003782415', 'Rua do fogo', '07', 'Samambaia norte ', '72000333');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('07', 'luane Gabrielly', '98765432103', 'Rua das Araras', '21', 'Residencial Vila Boa', '98765444');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('08', 'Yasmin lenny', '93396628351', 'Rua capão', '22', 'Cerrado', '88090000');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('09', 'Beatriz Gomes ', '07078855156', 'Rua da Teresa ', '51', 'Aguas frias ', '71962538');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('10', 'Nicolas Rabelo ', '03651035190', 'Rua ypiranga', '06', 'Riacho Fundo ', '717700102');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('11', 'luciel Carvalho Aguiar', '711742239190', 'Rua maranhão', '12', 'Setor de Chácaras ', '72871667');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('12', 'Rikelme Zuza', '03651035197', 'Rua Ypiranga', '06', 'Riacho Fundo', '717700102');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('13', 'Nathan Goncalves', '01130568212', 'Rua São Gabriel', '04', 'Jardim Vila', '8200000');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('14', 'Maria Beatriz ', '07608801760 ', 'Rua das Pedras', '17', 'Gama', '71880683');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('15', 'Ingrid', '04450280820', 'Jardim', '12', 'Norte', '90950023');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('16', 'Maria Victoria', '08036083069', 'Rua do Fuzuê', '50', 'Planaltina', '20009698');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('17', 'Daniel Gomes ', '057595822172', 'Gomes Passos', '16', 'Norte', '72245612');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('18', 'Bruno Felipe', '03599213286', 'Rua Fortaleza ', '40', 'Valaparaiso', '72545400');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('19', 'Pedro Alves', '99999999999', 'Rua da Pedra ', '33', 'Cei Norte ', '72545400');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('20', 'Lara Rodrigues ', '086700622181', 'Rua das Flores ', '09', 'Aguas lindas', '72610202');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('21', 'Nathan de Aguiar', '74589669845', 'Rua3', '03', 'SHVP', '72500488');
+INSERT INTO `bd_caso_estudo_vendas`.`tb_cli` (`cli_cod`, `cli_nome`, `cli_cpf`, `cli_end_rua`, `cli_end_num`, `cli_end_bairro`, `cli_end_cep`) VALUES ('22', 'Debora', '889900221', 'Rua da Saudade', '08', 'Norte', '72238900');
